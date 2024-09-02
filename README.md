@@ -105,4 +105,4 @@ socket.emit
 
 ## Authors
 
-- [Mehul Chaturvedi](https://github.com/Mehulcoder)
+- [Akash Kolukonda](https://github.com/akashkolukonda)
