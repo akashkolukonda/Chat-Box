@@ -1,4 +1,4 @@
-# # ChatApp
+# # Chat-Box
 
 ## [Live Demo](https://mehul-chat-app.herokuapp.com/) 
 
