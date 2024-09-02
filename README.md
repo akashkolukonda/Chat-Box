@@ -1,53 +1,108 @@
-# Chat-Box
-Live Demo
-Features
-Join a specified room to chat
+# # ChatApp
 
-Send the geographical location to other users in the room if permission is granted
+## [Live Demo](https://mehul-chat-app.herokuapp.com/) 
 
-Automatically scroll down upon receiving a new message
 
-Responsive web design (RWD)
+## Features
 
-Getting Started
+-   Join a specified room to chat
+    
+-   Send the geographical location to other users in the room if permission is granted
+    
+-   Automatically scroll down upon receiving a new message
+    
+-   Responsive web design (RWD)
+
+
+## [](https://github.com/rubychi/udemy-chatapp#getting-started)Getting Started
+
 Follow the instructions below to set up the environment and run this project on your local machine
 
-Prerequisites
-Node.js
-Installing
-Download ZIP or clone this repo
+### [](https://github.com/rubychi/udemy-chatapp#prerequisites)Prerequisites
+
+-   Node.js
+
+### [](https://github.com/rubychi/udemy-chatapp#installing)Installing
+
+1.  Download ZIP or clone this repo
+
+```
 > git clone https://github.com/Mehulcoder/Chat-Application.git
-Install dependencies via NPM
+```
+
+2.  Install dependencies via NPM
+
+```
 > npm install
-Back to the root directory and type the below command to start the server and the service
+```
+
+5.  Back to the root directory and type the below command to start the server and the service
+
+```
 > npm run dev
-See it up and running on http://localhost:8000
-Deployment
-Deploy to Heroku
+```
+
+6.  See it up and running on  [http://localhost:8000](http://localhost:8000/)
+
+## [](https://github.com/rubychi/udemy-chatapp#deployment)Deployment
+
+1.  Deploy to Heroku
+
+```
 > heroku create
 > git push heroku master
-Open the app in the browser
+```
+
+2.  Open the app in the browser
+
+```
 > heroku open
-Built With
-Frontend
-jquery
-mustache
-Backend
-express
-NodeJS
-compression
-helmet
-Utils
-socket.io
-moment
-Notes
-Send an event to everybody in the room 'The Office Fans'
+```
+
+
+
+## [](https://github.com/rubychi/udemy-chatapp#built-with)Built With
+
+### [](https://github.com/rubychi/udemy-chatapp#frontend)Frontend
+
+-   jquery
+-   mustache
+
+### [](https://github.com/rubychi/udemy-chatapp#backend)Backend
+
+-   express
+-  NodeJS
+-   compression
+-   helmet
+
+### [](https://github.com/rubychi/udemy-chatapp#utils)Utils
+
+-   socket.io
+-   moment
+
+
+##  Notes
+
+-   Send an event to everybody in the room 'The Office Fans'
+
+```
 io.emit -> io.to('The Office Fans').emit
 
-Send an event to everybody in the room 'The Office Fans' except for the current user
+```
+
+-   Send an event to everybody in the room 'The Office Fans' except for the current user
+
+```
 socket.broadcast.emit -> socket.broadcast.to('The Office Fans').emit
 
-Send an event to a specific user
+```
+
+-   Send an event to a specific user
+
+```
 socket.emit
-Authors
-Akash Kolukonda
+```
+
+## Authors
+
+- [Mehul Chaturvedi](https://github.com/Mehulcoder)
